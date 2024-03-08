@@ -3,17 +3,29 @@ https://arxiv.org/abs/1706.03762
 
 
 0.209342 M parameters
+
 Step 0: Train loss 4.2787, validation loss 4.2742
+
 Step 100: Train loss 2.4708, validation loss 2.5001
+
 Step 200: Train loss 2.3788, validation loss 2.4521
+
 Step 300: Train loss 2.2812, validation loss 2.3952
+
 Step 400: Train loss 2.2128, validation loss 2.3407
+
 Step 500: Train loss 2.1333, validation loss 2.3349
+
 Step 600: Train loss 2.0525, validation loss 2.3369
+
 Step 700: Train loss 1.9666, validation loss 2.3331
+
 Step 800: Train loss 1.8545, validation loss 2.3328
+
 Step 900: Train loss 1.7316, validation loss 2.3657
+
 Step 1000: Train loss 1.6141, validation loss 2.3785
+
 
 Počno mi ti pada
 Vpoti tok ti oblo doblo ti tiho trak je si vekaju,
