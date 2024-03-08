@@ -5,7 +5,7 @@ from torch.nn import functional as F
 # Hyper parameter
 batch_size = 64 
 block_size = 256
-max_iters = 5000
+max_iters = 1500
 eval_interval = 500
 learning_rate = 3e-4
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -18,7 +18,7 @@ dropout = 0.2
 
 torch.manual_seed(1337)
 
-# wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+wget https://raw.githubusercontent.com/nenad1002/KajkavskiGPT/main/input.txt
 with open('input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
@@ -190,7 +190,7 @@ for iter in range(max_iters):
 
     if iter % eval_interval == 0 or iter == max_iters - 1:
         losses = estimate_loss()
-        print(f"step {iter}: train loss {losses['train']:.4f}, val loss {losses['val']:.4f}")
+        print(f"step {iter}: Train loss {losses['train']:.4f}, Validation loss {losses['val']:.4f}")
 
     xb, yb = get_batch('train')
 
